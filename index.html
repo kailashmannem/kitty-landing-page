@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitty Assistant</title>
+
+  <!-- Google Font (Poppins) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons (free CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Anime.js for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+
+  <!-- Animated Paws Background -->
+  <div class="paws-bg">
+    <span class="paw" style="left: 10%; top: 15%;"></span>
+    <span class="paw" style="left: 30%; top: 40%;"></span>
+    <span class="paw" style="left: 60%; top: 20%;"></span>
+    <span class="paw" style="left: 80%; top: 60%;"></span>
+    <span class="paw" style="left: 50%; top: 70%;"></span>
+    <span class="paw" style="left: 20%; top: 80%;"></span>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <h1>Kitty Assistant</h1>
+      <p>A cute AI-powered companion for your desktop.</p>
+      <a href="https://github.com/kailashmannem/kitty-assistant/releases/download/1.0.0/setup_KittyAssistant.exe" class="btn">Download for Windows</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="fas fa-cat fa-3x"></i>
+          <h3>Animated Cat Actions</h3>
+          <p>Kitty can walk, sleep, and dance on your desktop.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-robot fa-3x"></i>
+          <h3>Gemini API Responses</h3>
+          <p>Powered by AI (Google’s Gemini) for smart replies.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-leaf fa-3x"></i>
+          <h3>Lightweight & Offline</h3>
+          <p>Small app size, runs offline after download.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-download fa-3x"></i>
+          <h3>Simple Installer</h3>
+          <p>Easy one-click installation process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section id="screenshots" class="screenshots-section">
+    <div class="container">
+      <h2>Screenshots</h2>
+      <div class="screens-grid">
+        <!-- Placeholder images for app previews -->
+        <img src="https://via.placeholder.com/300x200" alt="App Screenshot 1">
+        <img src="https://via.placeholder.com/300x200" alt="App Screenshot 2">
+        <img src="https://via.placeholder.com/300x200" alt="App Screenshot 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how" class="how-section">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="how-grid">
+        <div class="how-step">
+          <i class="fas fa-file-download fa-2x"></i>
+          <h3>1. Download & Install</h3>
+          <p>Get the Windows installer and set it up on your PC.</p>
+        </div>
+        <div class="how-step">
+          <i class="fas fa-paw fa-2x"></i>
+          <h3>2. Launch Kitty</h3>
+          <p>Open the app; Kitty appears and awaits your commands.</p>
+        </div>
+        <div class="how-step">
+          <i class="fas fa-brain fa-2x"></i>
+          <h3>3. Chat & Play</h3>
+          <p>Kitty uses PyQt5 UI and Gemini API for AI chat.</p>
+        </div>
+      </div>
+      <p class="tech-stack">Built with <strong>PyQt5</strong>, <strong>Python</strong>, and the <strong>Gemini API</strong>.</p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <h2>FAQ</h2>
+      <details>
+        <summary>How do I install it?</summary>
+        <p>Download the Windows installer and run it. Since it is from a unknown publisher, you may need to allow it to run. You can click on More info and then Run anyway. Then follow the on-screen steps to install.</p>
+      </details>
+      <details>
+        <summary>Does it work on Linux?</summary>
+        <p>Officially only Windows is supported; Linux may require compatibility tools like Wine.</p>
+      </details>
+      <details>
+        <summary>Is my Gemini API key safe?</summary>
+        <p>Yes, it is safe. It is stored in the app's configuration file.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p><a href="https://github.com/kailashmannem/kitty-assistant" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>© 2025 kailashmannem</p>
+    </div>
+  </footer>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
