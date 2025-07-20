@@ -192,5 +192,14 @@ document.addEventListener('DOMContentLoaded', () => {
       easing: 'easeInOutSine'
     });
   });
+
+  // Download button logic (no counter)
+  const downloadBtn = document.getElementById('download-btn');
+  if (downloadBtn) {
+    downloadBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.open('https://github.com/kailashmannem/kitty-assistant/releases/download/1.0.0/setup_KittyAssistant.exe', '_blank');
+    });
+  }
   });
   
